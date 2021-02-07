@@ -1,6 +1,8 @@
 ---
 title: Educacional
 
+layout: post
+
 # View.
 #   1 = List
 #   2 = Compact

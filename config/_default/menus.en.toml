@@ -10,18 +10,13 @@
 
 [[main]]
   name = "News"
-  url = "post"
+  url = "new"
   weight = 20
 
 [[main]]
   name = "People"
   url = "people"
   weight = 30
-
-# [[main]]
-#   name = "Events"
-#   url = "event"
-#   weight = 40
 
 [[main]]
   name = "Research"
@@ -31,19 +26,19 @@
   [[main]]
     parent = "Research"
     name = "Articles"
-    url = "publication"
+    url = "research/article"
     weight = 10
 
   [[main]]
     parent = "Research"
     name = "Projects"
-    url = "project"
+    url = "research/project"
     weight = 20
 
   [[main]]
     parent = "Research"
     name = "Teaching"
-    url = "teaching"
+    url = "research/teaching"
     weight = 30
 
 [[main]]

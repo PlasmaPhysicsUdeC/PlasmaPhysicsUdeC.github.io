@@ -10,18 +10,13 @@
 
 [[main]]
   name = "Noticias"
-  url = "post"
+  url = "new"
   weight = 20
 
 [[main]]
   name = "Equipo"
   url = "people"
   weight = 30
-
-# [[main]]
-#   name = "Eventos"
-#   url = "event"
-#   weight = 40
 
 [[main]]
   name = "Investigación"
@@ -31,19 +26,19 @@
   [[main]]
     parent = "Investigación"
     name = "Artículos"
-    url = "publication"
+    url = "research/article"
     weight = 10
 
   [[main]]
     parent = "Investigación"
     name = "Proyectos"
-    url = "project"
+    url = "research/project"
     weight = 20
 
   [[main]]
     parent = "Investigación"
     name = "Educacional"
-    url = "teaching"
+    url = "research/teaching"
     weight = 30
 
 [[main]]

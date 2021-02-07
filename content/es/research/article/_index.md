@@ -1,5 +1,8 @@
 ---
-title: Publicaciones
+title: Artículos
+
+layout: publication
+
 view: 4
 
 header:

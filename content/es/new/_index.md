@@ -1,5 +1,7 @@
 ---
-title: Últimas noticias
+title: Latest News
+
+layout: post
 
 # View.
 #   1 = List
