@@ -30,9 +30,21 @@
 
   [[main]]
     parent = "Investigación"
-    name = "Publicaciones"
+    name = "Artículos"
     url = "publication"
     weight = 10
+
+  [[main]]
+    parent = "Investigación"
+    name = "Proyectos"
+    url = "project"
+    weight = 20
+
+  [[main]]
+    parent = "Investigación"
+    name = "Educacional"
+    url = "teaching"
+    weight = 30
 
 [[main]]
   name = "Contacto"

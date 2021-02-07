@@ -84,7 +84,7 @@ show_related = {post = true, project = true, publication = true, talk = true}
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "jorgegidi@gmail.com"
+email = "test@mail.com"
 phone = "888 888 88 88"
 
 # Address
@@ -143,7 +143,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {enable = true, align = "r", show_logo = true, highlight_active_link = false, show_language = true, show_day_night = true, show_search = true}
+main_menu = {enable = true, align = "r", show_logo = false, highlight_active_link = false, show_language = true, show_day_night = true, show_search = true}
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
@@ -259,9 +259,9 @@ plugins_js  = []
 ############################
 ## Content Management System
 ############################
-# [cms]
-#   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
-#   netlify_cms = true
+[cms]
+  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
+  netlify_cms = true
 
 ############################
 ## Icon Pack Extensions
