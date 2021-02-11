@@ -1,5 +1,5 @@
 ---
-title: Test from Linares
+title: Prueba desde Linares
 date: 2021-02-04
 authors:
     - jgidi
@@ -7,4 +7,4 @@ authors:
 
 <!--more-->
 
-This is a test
+Esto es una prueba
