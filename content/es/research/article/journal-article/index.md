@@ -1,8 +1,8 @@
 ---
 title: "An example journal article"
 authors:
-- admin
-- Robert Ford
+- jgidi
+- Some Guy
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
