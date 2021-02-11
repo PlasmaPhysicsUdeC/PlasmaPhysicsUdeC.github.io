@@ -1,42 +1,44 @@
 ---
 # Display name
-title: Jorge Gidi
+title: Jorge A. Gidi
 
-# Username (this should match the folder name)
+# Username
+# Erase 'jgidi' and replace it with a username of your preference
 authors:
 - jgidi
 
-# Is this the primary user of the site?
+# Primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD. Student in Physics
+role: Estudiante de Doctorado en Física
 
 # Organizations/Affiliations
 organizations:
 - name: Universidad de Concepción
   url: "https://www.udec.cl/pexterno"
 
-# Short bio (displayed in user profile at end of posts)
-bio: Resumen intereses
-
-interests:
-- Métodos numericos
-- test
+# # Short bio (displayed in user profile at end of posts)
+# bio: Resumen bio
 
 education:
   courses:
-  - course: MSc in Physics
+  - course: Magíster en Ciencias con mención en Física
     institution: Universidad de Concepción
     year: 2019
-  - course: BSc in Physics
+  - course: Licenciado en Ciencias Físicas
     institution: Universidad de Concepción
     year: 2017
 
+awards:
+  - award: Premio Universidad de Concepción
+    institution: Universidad de Concepción
+    year: 2019
+
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# If you dont have one of these, you can erase the corresponding group
+# Social/Academic Networking
+# If you dont have one of these, you can erase the corresponding group
 social:
 - icon: envelope
   icon_pack: fas
@@ -44,19 +46,22 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/jgidi
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0001-5577-4685
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Jorge_Gidi
+  
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "jorgegidi@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+# Possible groups are:
+# - Researchers (Investigadores)
+# - Students (Estudiantes)
+# - Collaborators (Colaboradores)
+# - Alumni (Alumni)
 user_groups:
-- Estudiantes de Postgrado
+- Estudiantes
 ---
-
-¿Quien soy yo?
