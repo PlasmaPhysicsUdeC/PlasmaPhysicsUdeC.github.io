@@ -1,73 +1,90 @@
 ---
 # Display name
-title: Roberto Navarro
+title: Roberto E. Navarro 
 
-# Is this the primary user of the site?
-superuser: true
+# Username
+authors:
+- rnavarro
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Profesor asistente
+
+# Primary user of the site?
+superuser: true
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Universidad de Concepción
+  url: "https://www.udec.cl"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Doctor en Ciencias c/m Física | Académico UdeC | Investigador Física de Plasmas | Usuario Linux & amante de perros | No he visto una sola película de Star Wars
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Fı́sica de plasmas
+- Fı́sica espacial y astrofísica
+- Viento solar y magnetósferas 
+- Aceleración y calentamiento de partículas
+- Simulaciones numéricas en plasmas
+- Fluctuaciones electromagnéticas en plasmas
+- Efectos no lineales en plasmas
+- Distribuciones de partículas
+- Termodinámica fuera del equilibrio
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: Doctor en Ciencias con mención en Física
+    institution: Universidad de Chile
+    year: 2015
+  - course: Licenciado en Ciencias con mención en Física
+    institution: Universidad de Chile
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# If you dont have one of these, you can erase the corresponding group
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:test@example.org'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: 'mailto:robernavarro@udec.cl'
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
+  link: https://github.com/vagoberto
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-0782-1904
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=alyX7AgAAAAJ
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Roberto_Navarro
+- icon: arxiv
+  icon_pack: ai
+  link: https://arxiv.org/a/navarro_r_1.html
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ronavarromal/
+  
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
+email: "robernavarro@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+# Possible groups are:
+# - Researchers (Investigadores)
+# - Students (Estudiantes)
+# - Collaborators (Colaboradores)
+# - Alumni (Alumni)
 user_groups:
 - Investigadores
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Roberto es Profesor Asociado en el Departamento de Física de la
+Facultad de Ciencias Físicas y Matemáticas de la Universidad de
+Concepción. Ingresa a la institución mediante el programa de Inserción
+de Capital Humano Avanzado en la Academia (PAI) de CONICyT.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Se especializa en el área de Física de Plasmas espaciales, en
+particular, investiga sobre los procesos básicos que rigen el
+calentamiento y energización de plasmas en el Universo tanto como su
+importancia en distintos regímenes turbulentos en física espacial,
+plasmas astrofísicos y de laboratorio.
