@@ -2,7 +2,7 @@
 title: "An example journal article"
 authors:
 - jgidi
-- Some Guy
+- rnavarro
 author_notes:
 - "Equal contribution"
 - "Equal contribution"

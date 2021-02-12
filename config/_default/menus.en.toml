@@ -26,19 +26,19 @@
   [[main]]
     parent = "Research"
     name = "Articles"
-    url = "research/article"
+    url = "article"
     weight = 10
 
   [[main]]
     parent = "Research"
     name = "Projects"
-    url = "research/project"
+    url = "project"
     weight = 20
 
   [[main]]
     parent = "Research"
     name = "Teaching"
-    url = "research/teaching"
+    url = "teaching"
     weight = 30
 
 [[main]]
