@@ -126,3 +126,52 @@
     </div>
   </div>
 </div>
+
+{{/* Range publications */}}
+{{ $items_type := "article" }}
+{{ $items_offset := 0 }}
+{{ $items_count := 9999 }}
+{{ $items_sort := "desc" }}
+
+{{/* Query */}}
+{{ $query := where site.RegularPages "Type" $items_type }}
+
+
+{{/* Filters */}}
+{{ $archive_page := site.GetPage (printf "authors/%s" .author )}}
+{{ $query = $query | intersect $archive_page.Pages }}
+
+{{/* Sort */}}
+{{ $sort_by := "Date" }}
+{{ $query = sort $query $sort_by $items_sort }}
+
+{{ with $query }}
+<div class="section-subheading">{{ i18n "publications" | markdownify }}</div>
+{{ range $post := . }}
+{{ partial "li_citation" $post }}
+{{ end }}
+{{ end }}
+
+{{/* Range Projects */}}
+{{ $items_type := "project" }}
+{{ $items_offset := 0 }}
+{{ $items_count := 9999 }}
+{{ $items_sort := "desc" }}
+
+{{/* Query */}}
+{{ $query := where site.RegularPages "Type" $items_type }}
+
+{{/* Filters */}}
+{{ $archive_page := site.GetPage (printf "authors/%s" .author )}}
+{{ $query = $query | intersect $archive_page.Pages }}
+
+{{/* Sort */}}
+{{ $sort_by := "Date" }}
+{{ $query = sort $query $sort_by $items_sort }}
+
+{{ with $query }}
+<div class="section-subheading">{{ i18n "projects" | markdownify }}</div>
+{{ range $post := . }}
+{{ partial "li_list" $post }}
+{{ end }}
+{{ end }}
