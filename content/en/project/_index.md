@@ -1,7 +1,7 @@
 ---
 title: Projects
 
-layout: publication
+layout: project
 
 # View.
 #   1 = List
