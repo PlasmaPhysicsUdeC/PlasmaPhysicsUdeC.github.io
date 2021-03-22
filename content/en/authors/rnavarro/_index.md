@@ -83,7 +83,7 @@ user_groups:
 - Researchers
 ---
 
-Roberto is Associate Professor in the Physics Department of the
+Roberto is Assistant Professor in the Physics Department of the
 Faculty of Physical and Mathematical Sciences of the Universidad de
 Concepción. He joined the institution through the program of Insertion
 of Advanced Human Capital in the Academy (PAI) of CONICyT.
