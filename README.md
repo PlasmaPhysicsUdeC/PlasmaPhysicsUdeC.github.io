@@ -1,37 +1,25 @@
-# Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
+# UdeC Plasma Physics Group - webpage
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+## What is this repository?
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 5 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+This project holds the source code for the [webpage](https://plasmas-udec.netlify.app) of the Plasma Physics Group from the [Universidad de Concepción](www.udec.cl), Chile.
 
-_[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs._
+Any change on the master branch of this repository is automatically reflected on the webpage, which is directly deployed from github to netlify.
 
-- 👉 [**Get Started**](https://wowchemy.com/templates/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+We used the [starter-academic](https://github.com/wowchemy/starter-academic) template freely provided by [**Wowchemy**](https://wowchemy.com) for the [Hugo](https://github.com/gohugoio/hugo) website building framework.
 
-## Crowd-funded open-source software
+## How do I make changes to the webpage?
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+If you want to propose some change, you are most welcome to fork the repository and make a pull request. However, for questions regarding on how to implement such changes, please refer to the vast [official documentation](https://wowchemy.com/docs/) of the template used.
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+## How to deploy locally?
 
-## Ecosystem
+After some modifications, you will probably want to deploy and view the webpage locally before submitting the changes. To this end, a simple shell script called `view.sh` was put in the root of the repository. Executing the script will run `hugo server` and deploy the webpage to `localhost` on the port `1313` unless the port is already taken. Then, you can view the local version of the webpage by visiting `localhost:1313` on your favorite web browser.
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli/):** Automatically import publications from BibTeX
+## Requirements
 
-[![Screenshot](./preview.png)](https://wowchemy.com/templates/)
+To deploy the webpage locally, you will require **Hugo extended** (releases can be found [here](https://github.com/gohugoio/hugo/releases)).
 
-## Demo Credits
+## Final notice
 
-Please replace the demo images with your own.
-
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-research-group/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+The website is still under construction :)
