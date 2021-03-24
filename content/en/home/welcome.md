@@ -21,7 +21,7 @@ design:
 ---
 
 We are a team of physicists that are curious about various phenomena
-occuring in space and astrophysical plasmas. Our main interests cover
+occurring in space and astrophysical plasmas. Our main interests cover
 the understanding of heating and acceleration processes in
 collisionless plasmas (e.g. the solar wind); what is the role of
 turbulent transport and pressure balance in magnetospheric dynamics;
