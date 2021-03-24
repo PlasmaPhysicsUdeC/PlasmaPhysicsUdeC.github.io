@@ -78,7 +78,7 @@ user_groups:
 - Investigadores
 ---
 
-Roberto es Profesor Asociado en el Departamento de Física de la
+Roberto es Profesor Asistente en el Departamento de Física de la
 Facultad de Ciencias Físicas y Matemáticas de la Universidad de
 Concepción. Ingresa a la institución mediante el programa de Inserción
 de Capital Humano Avanzado en la Academia (PAI) de CONICyT.

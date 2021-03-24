@@ -20,4 +20,14 @@ design:
     padding: ["20px", "0", "20px", "0"]
 ---
 
-Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description Group description
+We are a team of physicists that are curious about various phenomena
+occurring in space and astrophysical plasmas. Our main interests cover
+the understanding of heating and acceleration processes in
+collisionless plasmas (e.g. the solar wind); what is the role of
+turbulent transport and pressure balance in magnetospheric dynamics;
+what is the origin of wave fluctuations and instabilities; and what
+processes regulate the shaping of particle distribution functions,
+among others. We also work on the development of high performance
+plasma computer simulations based on Particle-in-Cell, hybrid, or kinetic
+(Vlasov) methods. Our group is located at the Physics department of
+the University of Concepción, Chile.
