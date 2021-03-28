@@ -9,7 +9,7 @@ authors:
 - gzieballe
 
 # Role/position
-role: Estudiante de Magíster en Ciencias con mención en Física
+role: Master's Student in Sciences with mention in Physics
 
 # Organizations/Affiliations
 organizations:
@@ -17,15 +17,15 @@ organizations:
   url: "https://www.udec.cl/pexterno"
 
 # Short bio (displayed in user profile at end of posts)
-bio: En constante tranformación y aprendizaje.
+# bio: En constante tranformación y aprendizaje.
 
 interests:
-- Inestabilidades paramétricas
-- Fusión nuclear
+- Parametric Instabilities
+- Nuclear Fusion
 
 education:
   courses:
-  - course: Licenciado en Ciencias Físicas
+  - course: Bachelor of Physical Sciences
     institution: Universidad de Concepción
     year: 2020
 
@@ -46,7 +46,11 @@ email: "gzieballe2017@udec.cl"
 # - Collaborators (Colaboradores)
 # - Alumni (Alumni)
 user_groups:
-- Estudiantes
+- Students
 ---
 
-Físico en formación y miembro activo del grupo de difusión de la Facultad de Ciencias Físicas y Matemáticas - UdeC. Actualmente cursando un postgrado y buscando el equilibrio entre la ciencia y la música.
+In 2020, he started the Master's program in physics under the tutelage
+of Dr. Roberto Navarro at the University of Concepción. He is also an
+active member of the Physical Sciences Communication Group at the same
+university. Among his interests is the study of plasma parametric
+instabilities, nuclear fusion, and music.
