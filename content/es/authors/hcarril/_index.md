@@ -3,7 +3,6 @@
 title: Hugo A. Carril
 
 # Username
-# Erase 'jgidi' and replace it with a username of your preference
 authors:
 - hcarril
 
@@ -37,7 +36,6 @@ education:
 
 
 # Social/Academic Networking
-# If you dont have one of these, you can erase the corresponding group
 social:
 - icon: envelope
   icon_pack: fas
@@ -53,11 +51,6 @@ social:
 email: "hcarril@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-# Possible groups are:
-# - Researchers (Investigadores)
-# - Students (Estudiantes)
-# - Collaborators (Colaboradores)
-# - Alumni (Alumni)
 user_groups:
 - Estudiantes
 ---

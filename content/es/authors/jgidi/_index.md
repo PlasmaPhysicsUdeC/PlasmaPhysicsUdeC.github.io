@@ -3,7 +3,6 @@
 title: Jorge A. Gidi
 
 # Username
-# Erase 'jgidi' and replace it with a username of your preference
 authors:
 - jgidi
 
@@ -36,9 +35,6 @@ awards:
     year: 2019
 
 # Social/Academic Networking
-# If you dont have one of these, you can erase the corresponding group
-# Social/Academic Networking
-# If you dont have one of these, you can erase the corresponding group
 social:
 - icon: envelope
   icon_pack: fas
@@ -57,11 +53,7 @@ social:
 email: "jorgegidi@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-# Possible groups are:
-# - Researchers (Investigadores)
-# - Students (Estudiantes)
-# - Collaborators (Colaboradores)
-# - Alumni (Alumni)
+# Possible groups are: Investigadores, Estudiantes, Colaboradores, Alumni
 user_groups:
 - Estudiantes
 ---

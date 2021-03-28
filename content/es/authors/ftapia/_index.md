@@ -3,7 +3,6 @@
 title: Francisca B. Tapia
 
 # Username
-# Erase 'ftapia' and replace it with a username of your preference
 authors:
 - ftapia
 
@@ -24,7 +23,6 @@ education:
      year: 2020
 
 # Social/Academic Networking
-# If you dont have one of these, you can erase the corresponding group
 social:
 - icon: envelope
   icon_pack: fas
@@ -34,11 +32,6 @@ social:
 email: "ftapia@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-# Possible groups are:
-# - Researchers (Investigadores)
-# - Students (Estudiantes)
-# - Collaborators (Colaboradores)
-# - Alumni (Alumni)
 user_groups:
 - Estudiantes
 ---
