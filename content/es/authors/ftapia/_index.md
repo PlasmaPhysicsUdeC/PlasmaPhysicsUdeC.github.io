@@ -8,7 +8,7 @@ authors:
 - ftapia
 
 # Role/position
-role: Estudiante de Magíster en Ciencias mención Física
+role: Estudiante de Magíster en Ciencias con mención en Física
 # Organizations/Affiliations
 organizations:
 - name: Universidad de Concepción

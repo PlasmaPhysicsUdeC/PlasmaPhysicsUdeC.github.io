@@ -8,7 +8,7 @@ authors:
 - hcarril
 
 # Role/position
-role: Estudiante de Doctorado en Física
+role: Estudiante de Doctorado en Ciencias Físicas
 
 # Primary user of the site?
 superuser: false

@@ -11,7 +11,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Estudiante de Doctorado en Física
+role: Estudiante de Doctorado en Ciencias Físicas
 
 # Organizations/Affiliations
 organizations:
