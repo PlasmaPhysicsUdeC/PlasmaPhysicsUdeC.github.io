@@ -33,10 +33,10 @@ interests:
 
 education:
   courses:
-  - course: PhD in Sciences with mention in Physics
+  - course: PhD of Sciences with mention in Physics
     institution: Universidad de Chile
     year: 2015
-  - course: Bachiller in Sciences with mention in Physics
+  - course: Bachelor of Sciences with mention in Physics
     institution: Universidad de Chile
     year: 2009
 
@@ -46,7 +46,6 @@ education:
 #     year: 2019
 
 # Social/Academic Networking
-# If you dont have one of these, you can erase the corresponding group
 social:
 - icon: envelope
   icon_pack: fas
@@ -74,11 +73,7 @@ social:
 email: "robernavarro@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-# Possible groups are:
-# - Researchers (Investigadores)
-# - Students (Estudiantes)
-# - Collaborators (Colaboradores)
-# - Alumni (Alumni)
+# Possible groups are: Researchers, Students, Collaborators, Alumni
 user_groups:
 - Researchers
 ---
