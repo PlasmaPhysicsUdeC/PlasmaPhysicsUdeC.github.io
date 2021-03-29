@@ -3,7 +3,6 @@
 title: Danilo M. Rivera
 
 # Username
-# Erase 'jgidi' and replace it with a username of your preference
 authors:
 - danrivera
 
@@ -24,7 +23,7 @@ bio: Estudiante de Magíster en Ciencias con mención en Física
 interests:
 - Sistemas con interacciones de largo alcance
 - Estados cuasi-estacionarios
-- Mecánica estadística de no equilibrio
+- Mecánica estadística fuera del equilibrio
 
 education:
   courses:
@@ -46,13 +45,13 @@ social:
 email: "danrivera@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-# Possible groups are:
-# - Researchers (Investigadores)
-# - Students (Estudiantes)
-# - Collaborators (Colaboradores)
-# - Alumni (Alumni)
 user_groups:
 - Estudiantes
 ---
 
-Estudiante de Magíster en Ciencias con mención en Física, obtuvo el grado académico de Licenciado en Ciencias Físicas el año 2018. En el año 2019 entró al programa de magíster bajo la guía del Dr. Roberto Navarro con quien actualmente se encuentra investigando sistemas con interacciones de largo alcance que presentan estados cuasi-estacionarios fuera del equilibrio termodinámico.
+Estudiante de Magíster en Ciencias con mención en Física, obtuvo el
+grado académico de Licenciado en Ciencias Físicas el año 2018. En el
+año 2019 entró al programa de magíster bajo la guía del Dr. Roberto
+Navarro con quien actualmente se encuentra investigando sistemas con
+interacciones de largo alcance que presentan estados
+cuasi-estacionarios fuera del equilibrio termodinámico.

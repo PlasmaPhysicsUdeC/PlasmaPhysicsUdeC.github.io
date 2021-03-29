@@ -69,11 +69,7 @@ social:
 email: "robernavarro@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-# Possible groups are:
-# - Researchers (Investigadores)
-# - Students (Estudiantes)
-# - Collaborators (Colaboradores)
-# - Alumni (Alumni)
+# Possible groups are: Investigadores, Estudiantes, Colaboradores, Alumni
 user_groups:
 - Investigadores
 ---
