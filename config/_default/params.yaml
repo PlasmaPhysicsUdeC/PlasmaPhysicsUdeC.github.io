@@ -80,14 +80,14 @@ highlight_languages:
 math: true
 diagram: true
 privacy_pack: false
-# edit_page:
-#   repo_url: 'https://github.com/jgidi/webpage-plasmas-udec/'
-#   repo_branch: master
-#   content_dir:
-#   editable:
-#     page: true
-#     post: true
-#     book: true
+edit_page:
+  repo_url: 'https://github.com/jgidi/webpage-plasmas-udec/'
+  repo_branch: master
+  content_dir: content/
+  editable:
+    page: true
+    post: true
+    book: true
 show_related:
   book: true
   page: true
