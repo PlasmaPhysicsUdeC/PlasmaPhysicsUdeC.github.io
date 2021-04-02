@@ -3,7 +3,6 @@
 title: Guillermo Zieballe J
 
 # Username
-# Erase 'jgidi' and replace it with a username of your preference
 authors:
 - gzieballe
 
@@ -39,11 +38,6 @@ social:
 email: "gzieballe2017@udec.cl"
 
 # Organizational groups that you belong to (for People widget)
-# Possible groups are:
-# - Researchers (Investigadores)
-# - Students (Estudiantes)
-# - Collaborators (Colaboradores)
-# - Alumni (Alumni)
 user_groups:
 - Estudiantes
 ---
