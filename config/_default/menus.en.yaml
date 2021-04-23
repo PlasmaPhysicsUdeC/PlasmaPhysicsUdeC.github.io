@@ -30,10 +30,10 @@ main:
     url: 'project'
     weight: 20
 
-  - parent: Research
-    name: Teaching
-    url: 'teaching'
-    weight: 30
+  # - parent: Research
+  #   name: Teaching
+  #   url: 'teaching'
+  #   weight: 30
 
   - name: Contact
     url: 'contact'

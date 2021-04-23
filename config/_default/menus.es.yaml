@@ -30,10 +30,10 @@ main:
     url: 'project'
     weight: 20
 
-  - parent: Investigación
-    name: Educacional
-    url: 'teaching'
-    weight: 30
+  # - parent: Investigación
+  #   name: Educacional
+  #   url: 'teaching'
+  #   weight: 30
 
   - name: Contacto
     url: 'contact'
