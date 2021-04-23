@@ -8,9 +8,9 @@ main:
     url: '/'
     weight: 10
 
-  - name: Noticias
-    url: 'news'
-    weight: 20
+  # - name: Noticias
+  #   url: 'news'
+  #   weight: 20
 
   - name: Equipo
     url: 'people'
