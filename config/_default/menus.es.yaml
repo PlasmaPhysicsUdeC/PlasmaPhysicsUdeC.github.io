@@ -8,9 +8,9 @@ main:
     url: '/'
     weight: 10
 
-  - name: Noticias
-    url: 'news'
-    weight: 20
+  # - name: Noticias
+  #   url: 'news'
+  #   weight: 20
 
   - name: Equipo
     url: 'people'
@@ -30,10 +30,10 @@ main:
     url: 'project'
     weight: 20
 
-  - parent: Investigación
-    name: Educacional
-    url: 'teaching'
-    weight: 30
+  # - parent: Investigación
+  #   name: Educacional
+  #   url: 'teaching'
+  #   weight: 30
 
   - name: Contacto
     url: 'contact'
