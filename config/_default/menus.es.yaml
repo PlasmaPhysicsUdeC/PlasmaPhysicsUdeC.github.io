@@ -27,7 +27,7 @@ main:
 
   - parent: Investigación
     name: Proyectos
-    url: 'project'
+    url: 'projects'
     weight: 20
 
   # - parent: Investigación
