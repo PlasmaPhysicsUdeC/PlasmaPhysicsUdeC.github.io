@@ -1,5 +1,5 @@
 ---
-title: Artículos
+title: Publicaciones
 
 layout: publication
 

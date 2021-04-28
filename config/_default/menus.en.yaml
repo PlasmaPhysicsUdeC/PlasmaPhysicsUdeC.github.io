@@ -21,13 +21,13 @@ main:
     weight: 40
 
   - parent: Research
-    name: Articles
-    url: 'article'
+    name: Publications
+    url: 'publications'
     weight: 10
 
   - parent: Research
     name: Projects
-    url: 'project'
+    url: 'projects'
     weight: 20
 
   # - parent: Research

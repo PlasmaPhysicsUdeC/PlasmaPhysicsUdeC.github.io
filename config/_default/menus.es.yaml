@@ -21,13 +21,13 @@ main:
     weight: 40
 
   - parent: Investigación
-    name: Artículos
-    url: 'article'
+    name: Publicaciones
+    url: 'publications'
     weight: 10
 
   - parent: Investigación
     name: Proyectos
-    url: 'project'
+    url: 'projects'
     weight: 20
 
   # - parent: Investigación
