@@ -128,22 +128,14 @@
 </div>
 
 {{/* Range publications */}}
-{{ $items_type := "article" }}
-{{ $items_offset := 0 }}
-{{ $items_count := 9999 }}
-{{ $items_sort := "desc" }}
-
-{{/* Query */}}
-{{ $query := where site.RegularPages "Type" $items_type }}
-
+{{ $query := where site.RegularPages "Type" "publications" }}
 
 {{/* Filters */}}
-{{ $archive_page := site.GetPage (printf "authors/%s" .author )}}
-{{ $query = $query | intersect $archive_page.Pages }}
+{{ $author_pages := site.GetPage (printf "authors/%s" .author )}}
+{{ $query = $query | intersect $author_pages.Pages }}
 
 {{/* Sort */}}
-{{ $sort_by := "Date" }}
-{{ $query = sort $query $sort_by $items_sort }}
+{{ $query = sort $query "Date" "desc" }}
 
 {{ with $query }}
 <div class="section-subheading">{{ i18n "publications" | markdownify }}</div>
@@ -153,21 +145,14 @@
 {{ end }}
 
 {{/* Range Projects */}}
-{{ $items_type := "project" }}
-{{ $items_offset := 0 }}
-{{ $items_count := 9999 }}
-{{ $items_sort := "desc" }}
-
-{{/* Query */}}
-{{ $query := where site.RegularPages "Type" $items_type }}
+{{ $query := where site.RegularPages "Type" "projects" }}
 
 {{/* Filters */}}
-{{ $archive_page := site.GetPage (printf "authors/%s" .author )}}
-{{ $query = $query | intersect $archive_page.Pages }}
+{{ $author_pages := site.GetPage (printf "authors/%s" .author )}}
+{{ $query = $query | intersect $author_pages.Pages }}
 
 {{/* Sort */}}
-{{ $sort_by := "Date" }}
-{{ $query = sort $query $sort_by $items_sort }}
+{{ $query = sort $query "Date" "desc" }}
 
 {{ with $query }}
 <div class="section-subheading">{{ i18n "projects" | markdownify }}</div>
