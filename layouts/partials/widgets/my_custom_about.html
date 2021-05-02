@@ -128,6 +128,7 @@
 </div>
 
 {{/* Range publications */}}
+{{ $show_first := 3 }}
 {{ $query := where site.RegularPages "Type" "publications" }}
 
 {{/* Filters */}}
@@ -139,12 +140,20 @@
 
 {{ with $query }}
 <div class="section-subheading">{{ i18n "publications" | markdownify }}</div>
-{{ range $post := . }}
-{{ partial "li_citation" $post }}
+{{ range first $show_first $query }}
+{{ partial "li_citation" . }}
 {{ end }}
+<details>
+  <summary> {{ i18n "see-previous" }}  </summary>
+  <br>
+  {{ range after $show_first $query }}
+  {{ partial "li_citation" . }}
+  {{ end }}
+</details>
 {{ end }}
 
 {{/* Range Projects */}}
+{{ $show_first := 3 }}
 {{ $query := where site.RegularPages "Type" "projects" }}
 
 {{/* Filters */}}
@@ -155,8 +164,16 @@
 {{ $query = sort $query "Date" "desc" }}
 
 {{ with $query }}
-<div class="section-subheading">{{ i18n "projects" | markdownify }}</div>
-{{ range $post := . }}
-{{ partial "li_list" $post }}
+<div class="section-subheading">{{ i18n "projects" | markdownify }}</div>{{ range first $show_first $query }}
+{{ partial "li_list" . }}
+{{ end }}
+{{ if gt (len $query) $show_first}}
+<details>
+  <summary> {{ i18n "see-previous" }}  </summary>
+  <br>
+  {{ range after $show_first $query }}
+  {{ partial "li_list" . }}
+  {{ end }}
+</details>
 {{ end }}
 {{ end }}
