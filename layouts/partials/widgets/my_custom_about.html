@@ -153,7 +153,6 @@
 {{ end }}
 
 {{/* Range Projects */}}
-{{ $show_first := 3 }}
 {{ $query := where site.RegularPages "Type" "projects" }}
 
 {{/* Filters */}}
@@ -163,17 +162,39 @@
 {{/* Sort */}}
 {{ $query = sort $query "Date" "desc" }}
 
-{{ with $query }}
-<div class="section-subheading">{{ i18n "projects" | markdownify }}</div>{{ range first $show_first $query }}
-{{ partial "li_list" . }}
-{{ end }}
-{{ if gt (len $query) $show_first}}
-<details>
-  <summary> {{ i18n "see-previous" }}  </summary>
-  <br>
-  {{ range after $show_first $query }}
-  {{ partial "li_list" . }}
+<!-- Empty arrays -->
+{{ $current_projects := slice }}
+{{ $past_projects := slice }}
+
+<!-- Separate $query in current or past, according to date_end -->
+<!-- If date_end is not defined, then date_end = date -->
+{{ $date_end := .Now.Unix }}
+{{ range $page := $query }}
+  {{ if isset $page.Params "date_end" }}
+    {{ $date_end = time $page.Params.date_end }}
+  {{ else }}
+    {{ $date_end = $page.Date }}
   {{ end }}
-</details>
+  {{ if gt $date_end.Unix now.Unix  }}
+    {{ $current_projects = $current_projects | append $page }}
+  {{ else }}
+    {{ $past_projects = $past_projects | append $page }}
+  {{ end }}
 {{ end }}
+
+{{ with $query }}
+
+<div class="section-subheading">{{ i18n "current-projects" | markdownify }}</div>
+{{ range $current_projects }}
+  {{ partial "li_list" . }}
+{{ end }}
+{{ with $past_projects }}
+  <details>
+    <summary> {{ i18n "see-previous" }}  </summary>
+    <br>
+    {{ range $past_projects }}
+    {{ partial "li_list" . }}
+    {{ end }}
+  </details>
+  {{ end }}
 {{ end }}
