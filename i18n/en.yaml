@@ -7,3 +7,6 @@
 
 - id: current-projects
   translation: Current projects
+
+- id: associated-publications
+  translation: Associated publications

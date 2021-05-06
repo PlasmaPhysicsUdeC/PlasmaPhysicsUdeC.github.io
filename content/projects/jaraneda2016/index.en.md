@@ -1,6 +1,6 @@
 ---
 title: Kinetic-Scale Plasma Turbulence in Collisionless Plasmas, Wave-mode Structure, Fluctuations and Dissipation Mechanisms ﻿ 
-date: 2016
+date: 2016-01-01
 authors:
     - jaraneda
 ---

@@ -1,7 +1,7 @@
 ---
 title: Projects
 
-layout: project
+layout: projects
 
 # View.
 #   1 = List
