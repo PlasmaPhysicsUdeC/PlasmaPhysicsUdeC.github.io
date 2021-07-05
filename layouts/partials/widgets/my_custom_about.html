@@ -112,7 +112,11 @@
         <ul class="ul-edu fa-ul">
           {{ range . }}
           <li>
-            <i class="fa-li fas fa-sun"></i>
+            {{/* Default icon */}}
+            {{ $icon := "sun" }}
+            {{/* Select icon from 'fa_icon' key */}}
+            {{ with .fa_icon }}{{ $icon = . }}{{ end }}
+            <i class="fa-li fas fa-{{ $icon }} "></i>
             <div class="description">
               <p class="course">{{ .description }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
