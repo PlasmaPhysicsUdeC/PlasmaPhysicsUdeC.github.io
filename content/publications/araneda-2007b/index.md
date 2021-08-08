@@ -34,5 +34,6 @@ publication_types:
 - '2'
 abstract: ''
 publication: '*J. Geophys. Res. 112*, A04104 (2007)'
+url_pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2006JA011999
 doi: 10.1029/2006JA011999
 ---

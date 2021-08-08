@@ -32,5 +32,6 @@ publication_types:
 - '2'
 abstract: ''
 publication: '*Phys. Plasmas 14*, 024703 (2007)'
+url_pdf: https://aip.scitation.org/doi/pdf/10.1063/1.2458821
 doi: 10.1063/1.2458821
 ---

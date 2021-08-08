@@ -33,5 +33,6 @@ publication_types:
 - '2'
 abstract: ''
 publication: '*J. Phys. Conf. Ser. 511*, 012004 (2014)'
+url_pdf: https://iopscience.iop.org/article/10.1088/1742-6596/511/1/012004/pdf
 doi: 10.1088/1742-6596/511/1/012004
 ---
