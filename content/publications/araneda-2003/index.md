@@ -1,18 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Comment on "Sensitive Test for Ion-Cyclotron Resonant Heating in the Solar Wind"
+title: 'Electromagnetic Ion/Beam Instabilities In The Fast Solar Wind: Proton Core  Temperature Anisotropy Effects On The Relative Drift Speed And Ion Heating'
 subtitle: ''
 summary: ''
 authors:
-- P. S. Moya
-- rnavarro
-- V. Muñoz
-- J. Alejandro Valdivia
+- jaraneda
+- Adolfo F. Viñas
+- Hernán F. Astudillo
 tags: []
 categories: []
-date: '2013-07-01'
-lastmod: 2021-04-22T14:58:16-04:00
+date: '2003-01-01'
+lastmod: 2021-08-07T23:22:08-04:00
 featured: false
 draft: false
 
@@ -30,11 +29,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-04-22T18:58:16.665987Z'
+publishDate: '2021-08-08T03:22:08.468255Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Rev. Lett. 111*, 029001 (2013)'
-url_pdf: https://link.aps.org/doi/10.1103/PhysRevLett.111.029001
-doi: 10.1103/PhysRevLett.111.029001
+publication: '*AIP. Conf. Ser. 679*, 522 (2003)'
+doi: 10.1063/1.1618649
 ---

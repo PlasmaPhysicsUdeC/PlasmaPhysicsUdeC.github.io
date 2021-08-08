@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Magnetic fluctuations in anisotropic space plasmas: The effect of the plasma
-  environment'
+title: 'Magnetic fluctuations in anisotropic space plasmas: The effect of the plasma  environment'
 subtitle: ''
 summary: ''
 authors:

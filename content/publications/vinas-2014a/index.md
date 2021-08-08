@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: The role of higher-order modes on the electromagnetic whistler-cyclotron wave
-  fluctuations of thermal and non-thermal plasmas
+title: The role of higher-order modes on the electromagnetic whistler-cyclotron wave fluctuations of thermal and non-thermal plasmas
 subtitle: ''
 summary: ''
 authors:

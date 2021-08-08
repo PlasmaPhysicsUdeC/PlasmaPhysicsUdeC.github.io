@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Effects of the Background Turbulence on the Relaxation of Ion Temperature Anisotropy
-  in Space Plasmas
+title: Effects of the Background Turbulence on the Relaxation of Ion Temperature Anisotropy  in Space Plasmas
 subtitle: ''
 summary: ''
 authors:

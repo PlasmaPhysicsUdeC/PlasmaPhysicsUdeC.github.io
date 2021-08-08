@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Weak turbulence cascading effects in the acceleration and heating of ions in
-  the solar wind
+title: Weak turbulence cascading effects in the acceleration and heating of ions in  the solar wind
 subtitle: ''
 summary: ''
 authors:

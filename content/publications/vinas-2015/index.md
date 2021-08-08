@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Electromagnetic fluctuations of the whistler-cyclotron and firehose instabilities
-  in a Maxwellian and Tsallis-kappa-like plasma
+title: Electromagnetic fluctuations of the whistler-cyclotron and firehose instabilities  in a Maxwellian and Tsallis-kappa-like plasma
 subtitle: ''
 summary: ''
 authors:
