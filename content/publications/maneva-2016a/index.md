@@ -34,6 +34,6 @@ publishDate: '2021-08-08T03:22:07.079347Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*AIP Conf. Proc. 1720*, 040011 (2016)'
+publication: '*AIP Conf. Proc. 1720*, 040011'
 doi: 10.1063/1.4943822
 ---

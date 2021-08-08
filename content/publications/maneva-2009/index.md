@@ -33,6 +33,6 @@ publishDate: '2021-08-08T03:22:07.911109Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*AIP Conf. Ser. 1121*, 122 (2009)'
+publication: '*AIP Conf. Ser. 1121*, 122'
 doi: 10.1063/1.3137931
 ---

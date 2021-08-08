@@ -33,6 +33,6 @@ publishDate: '2021-08-08T03:22:08.743599Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*AIP Conf. Series 471*, 357 (1999)'
+publication: '*AIP Conf. Series 471*, 357'
 doi: 10.1063/1.58771
 ---

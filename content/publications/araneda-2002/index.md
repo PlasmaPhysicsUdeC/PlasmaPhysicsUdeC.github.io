@@ -33,7 +33,7 @@ publishDate: '2021-08-08T03:22:08.559680Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*J. Geophys. Res. 107*, 1453 (2002)'
+publication: '*J. Geophys. Res. 107*, 1453'
 url_pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2002JA009337
 doi: 10.1029/2002JA009337
 ---

@@ -41,6 +41,6 @@ publishDate: '2021-04-22T18:58:17.135977Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Astrophys. J. 781*, 76 (2014)'
+publication: '*Astrophys. J. 781*, 76'
 doi: 10.1088/0004-637X/781/2/76
 ---

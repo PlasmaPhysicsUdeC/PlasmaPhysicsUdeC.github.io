@@ -32,6 +32,6 @@ publishDate: '2021-08-08T03:22:08.651728Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Astrophys. Space Sci. 277*, 103 (2001)'
+publication: '*Astrophys. Space Sci. 277*, 103'
 doi: 10.1023/A:1012280010934
 ---

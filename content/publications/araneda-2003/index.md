@@ -33,6 +33,6 @@ publishDate: '2021-08-08T03:22:08.468255Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*AIP. Conf. Ser. 679*, 522 (2003)'
+publication: '*AIP. Conf. Ser. 679*, 522'
 doi: 10.1063/1.1618649
 ---

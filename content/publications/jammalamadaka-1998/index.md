@@ -34,6 +34,6 @@ publishDate: '2021-08-08T03:22:08.840296Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*AIP Conf. Ser. 446*, 276 (1998) '
+publication: '*AIP Conf. Ser. 446*, 276 '
 doi: 10.1063/1.56677
 ---

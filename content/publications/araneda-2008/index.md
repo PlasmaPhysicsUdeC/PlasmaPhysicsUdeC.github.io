@@ -33,6 +33,6 @@ publishDate: '2021-08-08T03:22:08.096370Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Rev. Lett. 100*, 125003 (2008)'
+publication: '*Phys. Rev. Lett. 100*, 125003'
 doi: 10.1103/PhysRevLett.100.125003
 ---

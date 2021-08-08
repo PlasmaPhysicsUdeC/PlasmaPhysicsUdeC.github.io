@@ -34,7 +34,7 @@ publishDate: '2021-04-22T18:58:16.665987Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Rev. Lett. 111*, 029001 (2013)'
+publication: '*Phys. Rev. Lett. 111*, 029001'
 url_pdf: https://link.aps.org/doi/10.1103/PhysRevLett.111.029001
 doi: 10.1103/PhysRevLett.111.029001
 ---

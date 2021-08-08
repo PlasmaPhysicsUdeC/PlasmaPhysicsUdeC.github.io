@@ -52,7 +52,7 @@ abstract: The observations in the solar wind, which are usually organized in a b
   physics environments, and can affect the continuum spectrum produced by these fluctuations,
   which in turn may be used to understand the relevance of these processes occurring
   in a specific plasma environment.
-publication: '*Adv. Space Res. 58*, 2126 (2016)'
+publication: '*Adv. Space Res. 58*, 2126'
 url_pdf: http://linkinghub.elsevier.com/retrieve/pii/S0273117716301521
 doi: 10.1016/j.asr.2016.04.017
 ---

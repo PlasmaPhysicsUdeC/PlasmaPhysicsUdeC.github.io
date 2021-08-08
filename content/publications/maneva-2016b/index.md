@@ -33,6 +33,6 @@ publishDate: '2021-08-08T03:22:07.170634Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*AIP Conf. Proc. 1714*, 30004 (2016)'
+publication: '*AIP Conf. Proc. 1714*, 30004'
 doi: 10.1063/1.4942573
 ---

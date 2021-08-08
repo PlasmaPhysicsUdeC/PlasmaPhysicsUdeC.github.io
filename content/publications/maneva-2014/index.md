@@ -33,7 +33,7 @@ publishDate: '2021-08-08T03:22:07.541607Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Astrophys. J. 783*, 139 (2014)'
+publication: '*Astrophys. J. 783*, 139'
 url_pdf: https://iopscience.iop.org/article/10.1088/0004-637X/783/2/139/pdf
 doi: 10.1088/0004-637X/783/2/139
 ---

@@ -33,6 +33,6 @@ publishDate: '2021-08-08T03:22:07.632062Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Space Sci. Rev. 172*, 361 (2012)'
+publication: '*Space Sci. Rev. 172*, 361'
 doi: 10.1007/s11214-011-9773-0
 ---

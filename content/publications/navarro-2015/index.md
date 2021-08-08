@@ -54,6 +54,6 @@ abstract: Remote and in situ observations in the solar wind show that ion and el
   estimated in a proton temperature anisotropy-beta diagram for three different families
   of proton distribution functions, which can be compared to a number of recent measurements
   in the solar wind.
-publication: '*J. Geophys. Res. 120*, 2382 (2015)'
+publication: '*J. Geophys. Res. 120*, 2382'
 doi: 10.1002/2014JA020550
 ---

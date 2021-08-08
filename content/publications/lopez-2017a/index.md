@@ -34,6 +34,6 @@ publishDate: '2021-04-22T18:58:16.763021Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Plasmas 24*, 102119 (2017)'
+publication: '*Phys. Plasmas 24*, 102119'
 doi: 10.1063/1.5004688
 ---

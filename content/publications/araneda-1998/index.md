@@ -31,6 +31,6 @@ publishDate: '2021-08-08T03:22:08.932740Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Scripta 75*, 164 (1998)'
+publication: '*Phys. Scripta 75*, 164'
 doi: 10.1238/Physica.Topical.075a00164
 ---

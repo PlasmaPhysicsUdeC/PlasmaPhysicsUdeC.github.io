@@ -37,7 +37,7 @@ publishDate: '2021-04-22T18:58:16.856149Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Astrophys. J. 898*, L9 (2020)'
+publication: '*Astrophys. J. 898*, L9'
 url_pdf: http://dx.doi.org/10.3847/2041-8213/aba0ae https://iopscience.iop.org/article/10.3847/2041-8213/aba0ae
 doi: 10.3847/2041-8213/aba0ae
 ---

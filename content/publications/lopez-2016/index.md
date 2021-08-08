@@ -47,7 +47,7 @@ abstract: A sufficiently large temperature anisotropy can sometimes drive variou
   temperature and the temperature anisotropy on the collective and noncollective modes
   of these plasmas. Growth rates and dispersion curves from the linear theory show
   a good agreement with simulations results.
-publication: '*Astrophys. J. 832*, 36 (2016)'
+publication: '*Astrophys. J. 832*, 36'
 url_pdf: http://dx.doi.org/10.3847/0004-637X/832/1/36
 doi: 10.3847/0004-637X/832/1/36
 ---
