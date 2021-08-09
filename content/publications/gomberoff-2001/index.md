@@ -1,18 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Landau damping in Kaniadakis and Tsallis distributed electron plasmas
+title: Damping Effects on Parametric Decays of Alfvén Waves
 subtitle: ''
 summary: ''
 authors:
-- Rodrigo A. López
-- rnavarro
-- Sebastian I. Pons
+- L. Gomberoff
 - jaraneda
 tags: []
 categories: []
-date: '2017-01-01'
-lastmod: 2021-04-22T14:58:16-04:00
+date: '2001-01-01'
+lastmod: 2021-08-07T23:22:08-04:00
 featured: false
 draft: false
 
@@ -29,11 +27,11 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["rnavarro2015", "jaraneda2016"]
-publishDate: '2021-04-22T18:58:16.763021Z'
+projects: []
+publishDate: '2021-08-08T03:22:08.651728Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Plasmas 24*, 102119 (2017)'
-doi: 10.1063/1.5004688
+publication: '*Astrophys. Space Sci. 277*, 103'
+doi: 10.1023/A:1012280010934
 ---

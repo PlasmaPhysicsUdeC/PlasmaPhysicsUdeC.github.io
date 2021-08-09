@@ -1,20 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Theory of electromagnetic fluctuations for magnetized multi-species plasmas
+title: Regulation of Ion Drifts and Anisotropies by Parametrically Unstable Finite-amplitude Alfvén-cyclotron Waves in the Fast Solar Wind
 subtitle: ''
 summary: ''
 authors:
-- rnavarro
+- Y. G. Maneva
 - jaraneda
-- V. Muñoz
-- P. S. Moya
-- Adolfo F.-Viñas
-- Juan A. Valdivia
+- E. Marsch
 tags: []
 categories: []
 date: '2014-01-01'
-lastmod: 2021-04-22T14:58:17-04:00
+lastmod: 2021-08-07T23:22:07-04:00
 featured: false
 draft: false
 
@@ -32,10 +29,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: ["jaraneda2011"]
-publishDate: '2021-04-22T18:58:17.042300Z'
+publishDate: '2021-08-08T03:22:07.541607Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Plasmas 21*, 092902'
-doi: 10.1063/1.4894700
+publication: '*Astrophys. J. 783*, 139'
+url_pdf: https://iopscience.iop.org/article/10.1088/0004-637X/783/2/139/pdf
+doi: 10.1088/0004-637X/783/2/139
 ---

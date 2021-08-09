@@ -1,20 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Theory of electromagnetic fluctuations for magnetized multi-species plasmas
+title: Parametrically Unstable Alfvén-cyclotron Waves and Wave-Particle Interactions in the Solar Corona and Solar Wind
 subtitle: ''
 summary: ''
 authors:
-- rnavarro
+- Y. G. Maneva
 - jaraneda
-- V. Muñoz
-- P. S. Moya
-- Adolfo F.-Viñas
-- Juan A. Valdivia
+- E. Marsch
 tags: []
 categories: []
-date: '2014-01-01'
-lastmod: 2021-04-22T14:58:17-04:00
+date: '2009-01-01'
+lastmod: 2021-08-07T23:22:07-04:00
 featured: false
 draft: false
 
@@ -31,11 +28,11 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["jaraneda2011"]
-publishDate: '2021-04-22T18:58:17.042300Z'
+projects: []
+publishDate: '2021-08-08T03:22:07.911109Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Plasmas 21*, 092902'
-doi: 10.1063/1.4894700
+publication: '*AIP Conf. Ser. 1121*, 122'
+doi: 10.1063/1.3137931
 ---

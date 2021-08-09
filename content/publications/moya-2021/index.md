@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Effects of the Background Turbulence on the Relaxation of Ion Temperature Anisotropy
-  in Space Plasmas
+title: Effects of the Background Turbulence on the Relaxation of Ion Temperature Anisotropy  in Space Plasmas
 subtitle: ''
 summary: ''
 authors:
@@ -54,7 +53,7 @@ abstract: Turbulence in space plasmas usually exhibits two regimes separated by 
   stable proton velocity distribution can evolve in such a way as to develop kinetic
   instabilities. This may explain why the constituents of the solar wind can be observed
   far from thermodynamic equilibrium and near the instability thresholds.
-publication: '*Front. Phys. 9*, 175 (2021)'
+publication: '*Front. Phys. 9*, 175'
 url_pdf: https://www.frontiersin.org/articles/10.3389/fphy.2021.624748/full
 doi: 10.3389/fphy.2021.624748
 ---

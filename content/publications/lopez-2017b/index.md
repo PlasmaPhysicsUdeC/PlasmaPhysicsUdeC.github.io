@@ -1,20 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Theory of electromagnetic fluctuations for magnetized multi-species plasmas
+title: Kinetic Scale Structure of Low-frequency Waves and Fluctuations
 subtitle: ''
 summary: ''
 authors:
-- rnavarro
+- Rodrigo A. López
+- Adolfo F. Viñas
 - jaraneda
-- V. Muñoz
-- P. S. Moya
-- Adolfo F.-Viñas
-- Juan A. Valdivia
+- Peter H. Yoon
 tags: []
 categories: []
-date: '2014-01-01'
-lastmod: 2021-04-22T14:58:17-04:00
+date: '2017-01-01'
+lastmod: 2021-08-07T23:22:07-04:00
 featured: false
 draft: false
 
@@ -31,11 +29,12 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["jaraneda2011"]
-publishDate: '2021-04-22T18:58:17.042300Z'
+projects: ["jaraneda2016"]
+publishDate: '2021-08-08T03:22:06.988017Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Plasmas 21*, 092902'
-doi: 10.1063/1.4894700
+publication: '*Astrophys. J. 845*, 60'
+url_pdf: https://iopscience.iop.org/article/10.3847/1538-4357/aa7feb/pdf
+doi: 10.3847/1538-4357/aa7feb
 ---

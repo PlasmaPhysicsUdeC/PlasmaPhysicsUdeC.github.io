@@ -45,7 +45,7 @@ abstract: A kinetic description of Alfvén-cyclotron magnetic fluctuations for a
   excitations, are consistent with the results provided by hybrid simulations. It
   is expected that this analysis contributes to our understanding of the nature of
   magnetic fluctuations in the solar wind. © 2014 American Physical Society.
-publication: '*Phys. Rev. Lett. 112*, 245001 (2014)'
+publication: '*Phys. Rev. Lett. 112*, 245001'
 url_pdf: https://link.aps.org/doi/10.1103/PhysRevLett.112.245001
 doi: 10.1103/PhysRevLett.112.245001
 ---

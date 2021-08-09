@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: The role of higher-order modes on the electromagnetic whistler-cyclotron wave
-  fluctuations of thermal and non-thermal plasmas
+title: The role of higher-order modes on the electromagnetic whistler-cyclotron wave fluctuations of thermal and non-thermal plasmas
 subtitle: ''
 summary: ''
 authors:
@@ -56,6 +55,6 @@ abstract: Two fundamental challenging problems of laboratory and astrophysical p
   are in fact enhanced over these quasi modes suggesting that such modes play an important
   role in the emission and absorption of electromagnetic fluctuations in thermal or
   quasi-thermal plasmas.
-publication: '*Phys. Plasmas 21*, 012902 (2014)'
+publication: '*Phys. Plasmas 21*, 012902'
 doi: 10.1063/1.4861865
 ---

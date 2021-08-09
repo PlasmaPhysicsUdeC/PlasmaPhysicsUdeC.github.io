@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Electromagnetic fluctuations of the whistler-cyclotron and firehose instabilities
-  in a Maxwellian and Tsallis-kappa-like plasma
+title: Electromagnetic fluctuations of the whistler-cyclotron and firehose instabilities  in a Maxwellian and Tsallis-kappa-like plasma
 subtitle: ''
 summary: ''
 authors:
@@ -65,6 +64,6 @@ abstract: ©2015. American Geophysical Union. All Rights Reserved. Observed elec
   Key Points Whistler and firehose fluctuations for thermal and nonthermal distributions
   Results show an increase in the fluctuations level for nonthermal distributions
   Results provide a diagnostic signature of the velocity distribution function
-publication: '*J. Geophys. Res. 120*, 3307 (2015)'
+publication: '*J. Geophys. Res. 120*, 3307'
 doi: 10.1002/2014JA020554
 ---

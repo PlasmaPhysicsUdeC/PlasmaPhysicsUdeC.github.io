@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: SPONTANEOUS ELECTROMAGNETIC FLUCTUATIONS in A RELATIVISTIC MAGNETIZED ELECTRON-POSITRON
-  PLASMA
+title: SPONTANEOUS ELECTROMAGNETIC FLUCTUATIONS in A RELATIVISTIC MAGNETIZED ELECTRON-POSITRON  PLASMA
 subtitle: ''
 summary: ''
 authors:
@@ -57,7 +56,7 @@ abstract: Spontaneous fluctuations are a robust phenomenon of plasmas near equil
   agreement between analytical and numerical results. We expect this formalism to
   contribute to obtaining useful physical information about the state of relativistic
   plasmas.
-publication: '*Astrophys. J. 810*, 103 (2015)'
+publication: '*Astrophys. J. 810*, 103'
 url_pdf: http://dx.doi.org/10.1088/0004-637X/810/2/103
 doi: 10.1088/0004-637X/810/2/103
 ---

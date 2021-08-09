@@ -1,20 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Theory of electromagnetic fluctuations for magnetized multi-species plasmas
+title: Preferential heating of oxygen 5$^+$ ions by finite-amplitude oblique Alfvén  waves
 subtitle: ''
 summary: ''
 authors:
-- rnavarro
+- Yana G. Maneva
+- Adolfo Viñas
 - jaraneda
-- V. Muñoz
-- P. S. Moya
-- Adolfo F.-Viñas
-- Juan A. Valdivia
+- Stefaan Poedts
 tags: []
 categories: []
-date: '2014-01-01'
-lastmod: 2021-04-22T14:58:17-04:00
+date: '2016-01-01'
+lastmod: 2021-08-07T23:22:07-04:00
 featured: false
 draft: false
 
@@ -31,11 +29,11 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["jaraneda2011"]
-publishDate: '2021-04-22T18:58:17.042300Z'
+projects: []
+publishDate: '2021-08-08T03:22:07.079347Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Phys. Plasmas 21*, 092902'
-doi: 10.1063/1.4894700
+publication: '*AIP Conf. Proc. 1720*, 040011'
+doi: 10.1063/1.4943822
 ---
