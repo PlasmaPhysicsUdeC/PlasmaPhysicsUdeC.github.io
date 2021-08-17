@@ -40,6 +40,13 @@ education:
     institution: Universidad de Chile
     year: 2009
 
+
+others:
+  - description: Coordinador y miembro comité científico
+    institution: XII Congreso Latino Americano de Geofísica Espacial (COLAGE)
+    date: "22-26 de noviembre de 2021"
+    url: https://ccc.ciencias.uchile.cl/2021colage
+
 # Social/Academic Networking
 # If you dont have one of these, you can erase the corresponding group
 social:

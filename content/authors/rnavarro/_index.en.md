@@ -40,10 +40,11 @@ education:
     institution: Universidad de Chile
     year: 2009
 
-# awards:
-#   - award: Premio Universidad de Concepción
-#     institution: Universidad de Concepción
-#     year: 2019
+others:
+  - description: Convener and Scientific Committee's member
+    institution: XII Latin American Conference on Space Geophysics (COLAGE)
+    date: "November 22-26, 2021"
+    url: https://ccc.ciencias.uchile.cl/2021colage
 
 # Social/Academic Networking
 social:
