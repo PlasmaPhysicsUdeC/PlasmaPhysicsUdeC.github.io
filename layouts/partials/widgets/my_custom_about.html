@@ -120,8 +120,8 @@
             <div class="description">
               <p class="course">{{ .description }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
-	      <p class="institution">{{ .date }}</p>
-	      <p class="institution"><a href="{{ .url }}"> {{ .url }} </p>
+              <p class="institution">{{ .date }}</p>
+              {{ with .url }}<p class="institution"><a href="{{ . }}"> {{ . }} </p>{{ end }}
             </div>
           </li>
           {{ end }}
