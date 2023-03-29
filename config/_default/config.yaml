@@ -83,3 +83,11 @@ related:
       weight: 100
     - name: categories
       weight: 70
+
+# Needed for Hugo > 0.91.0
+# https://github.com/wowchemy/wowchemy-hugo-themes/discussions/2559
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
