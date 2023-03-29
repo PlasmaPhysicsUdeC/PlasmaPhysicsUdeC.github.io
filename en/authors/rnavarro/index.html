@@ -1,677 +1,107 @@
-<!doctype html><html lang=en-us>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=generator content="Wowchemy 5.0.0-beta.3 for Hugo">
-<meta name=author content="Roberto E. Navarro">
-<meta name=description content="Site description">
-<link rel=alternate hreflang=es href=https://plasmaphysicsudec.github.io/es/authors/rnavarro/>
-<link rel=alternate hreflang=en-us href=https://plasmaphysicsudec.github.io/en/authors/rnavarro/>
-<meta name=theme-color content="#1565c0">
-<script src=/js/mathjax-config.js></script>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'">
-<script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
-<link rel=stylesheet href=/css/wowchemy.0ff3e1bfb400d259991290a7591b4a6e.css>
-<link rel=alternate href=/en/authors/rnavarro/index.xml type=application/rss+xml title="UdeC Plasma Group">
-<link rel=manifest href=/en/index.webmanifest>
-<link rel=icon type=image/png href=/media/icon_hu9eb82102245092e58bef2042a6570c8d_29949_32x32_fill_lanczos_center_3.png>
-<link rel=apple-touch-icon type=image/png href=/media/icon_hu9eb82102245092e58bef2042a6570c8d_29949_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://plasmaphysicsudec.github.io/en/authors/rnavarro/>
-<meta property="twitter:card" content="summary">
-<meta property="og:site_name" content="UdeC Plasma Group">
-<meta property="og:url" content="https://plasmaphysicsudec.github.io/en/authors/rnavarro/">
-<meta property="og:title" content="Roberto E. Navarro | UdeC Plasma Group">
-<meta property="og:description" content="Site description"><meta property="og:image" content="https://plasmaphysicsudec.github.io/en/authors/rnavarro/avatar_hu578324b7e70455e0a4e841881b197cba_309952_270x270_fill_q75_lanczos_center.jpg">
-<meta property="twitter:image" content="https://plasmaphysicsudec.github.io/en/authors/rnavarro/avatar_hu578324b7e70455e0a4e841881b197cba_309952_270x270_fill_q75_lanczos_center.jpg"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2021-04-01T00:00:00+00:00">
-<title>Roberto E. Navarro | UdeC Plasma Group</title>
-</head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=b889b6ea0a1136bc837a574fd721eae9>
-<script src=/js/wowchemy-init.min.7dc5be8f76e9e1722f142f56fa9d5308.js></script>
-<aside class=search-modal id=search>
-<div class=container>
-<section class=search-header>
-<div class="row no-gutters justify-content-between mb-3">
-<div class=col-6>
-<h1>Search</h1>
-</div>
-<div class="col-6 col-search-close">
-<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
-</div>
-</div>
-<div id=search-box>
-<input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...>
-</div>
-</section>
-<section class=section-search-results>
-<div id=search-hits>
-</div>
-</section>
-</div>
-</aside>
-<div class=page-header>
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
-<div class=container-xl>
-<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span>
-</button>
-<div class="navbar-collapse main-menu-item collapse justify-content-end" id=navbar-content>
-<ul class="navbar-nav d-md-inline-flex">
-<li class=nav-item>
-<a class=nav-link href=/en/><span>Home</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/en/people><span>People</span></a>
-</li>
-<li class="nav-item dropdown">
-<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Research</span><span class=caret></span>
-</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=/en/publications><span>Publications</span></a>
-<a class=dropdown-item href=/en/projects><span>Projects</span></a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/en/contact><span>Contact</span></a>
-</li>
-</ul>
-</div>
-<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-<li class=nav-item>
-<a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a>
-</li>
-<li class="nav-item dropdown theme-dropdown">
-<a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences">
-<i class="fas fa-moon" aria-hidden=true></i>
-</a>
-<div class=dropdown-menu>
-<a href=# class="dropdown-item js-set-theme-light">
-<span>Light</span>
-</a>
-<a href=# class="dropdown-item js-set-theme-dark">
-<span>Dark</span>
-</a>
-<a href=# class="dropdown-item js-set-theme-auto">
-<span>Automatic</span>
-</a>
-</div>
-</li>
-<li class="nav-item dropdown i18n-dropdown">
-<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true aria-label=Languages>
-<i class="fas fa-globe mr-1" aria-hidden=true></i><span class="d-none d-lg-inline">English</span></a>
-<div class=dropdown-menu>
-<div class="dropdown-item dropdown-item-active">
-<span>English</span>
-</div>
-<a class=dropdown-item href=https://plasmaphysicsudec.github.io/es/authors/rnavarro/>
-<span>Español</span>
-</a>
-</div>
-</li>
-</ul>
-</div>
-</nav>
-</div>
-<div class=page-body>
-<section id=profile-page class=pt-5>
-<div class=container>
-<div class=row>
-<div class="col-12 col-lg-4">
-<div id=profile>
-<img class="avatar avatar-circle" src=/en/authors/rnavarro/avatar_hu578324b7e70455e0a4e841881b197cba_309952_270x270_fill_q75_lanczos_center.jpg alt="Roberto E. Navarro">
-<div class=portrait-title>
-<h2>Roberto E. Navarro</h2>
-<h3>Assistant Professor</h3>
-<h3>
-<a href=https://www.udec.cl target=_blank rel=noopener>
-<span>Universidad de Concepción</span>
-</a>
-</h3>
-</div>
-<ul class=network-icon aria-hidden=true>
-<li>
-<a href=mailto:robernavarro@udec.cl aria-label=envelope>
-<i class="fas fa-envelope big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://github.com/vagoberto target=_blank rel=noopener aria-label=github>
-<i class="fab fa-github big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://orcid.org/0000-0003-0782-1904 target=_blank rel=noopener aria-label=orcid>
-<i class="ai ai-orcid big-icon"></i>
-</a>
-</li>
-<li>
-<a href="https://scholar.google.com/citations?user=alyX7AgAAAAJ" target=_blank rel=noopener aria-label=google-scholar>
-<i class="ai ai-google-scholar big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://www.researchgate.net/profile/Roberto_Navarro target=_blank rel=noopener aria-label=researchgate>
-<i class="ai ai-researchgate big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://arxiv.org/a/navarro_r_1.html target=_blank rel=noopener aria-label=arxiv>
-<i class="ai ai-arxiv big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://www.linkedin.com/in/ronavarromal/ target=_blank rel=noopener aria-label=linkedin>
-<i class="fab fa-linkedin big-icon"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-12 col-lg-8">
-<div class=article-style>
-<p>Roberto is Assistant Professor in the Physics Department of the
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.0.0-beta.3 for Hugo"><meta name=author content="Roberto E. Navarro"><meta name=description content="Site description"><link rel=alternate hreflang=es href=https://plasmaphysicsudec.github.io/es/authors/rnavarro/><link rel=alternate hreflang=en-us href=https://plasmaphysicsudec.github.io/en/authors/rnavarro/><meta name=theme-color content="#1565c0"><script src=/js/mathjax-config.js></script>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload='this.media="all"' disabled><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload='this.media="all"'><script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
+<link rel=stylesheet href=/css/wowchemy.0ff3e1bfb400d259991290a7591b4a6e.css><link rel=alternate href=/en/authors/rnavarro/index.xml type=application/rss+xml title="UdeC Plasma Group"><link rel=manifest href=/en/index.webmanifest><link rel=icon type=image/png href=/media/icon_hu9eb82102245092e58bef2042a6570c8d_29949_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu9eb82102245092e58bef2042a6570c8d_29949_180x180_fill_lanczos_center_3.png><link rel=canonical href=https://plasmaphysicsudec.github.io/en/authors/rnavarro/><meta property="twitter:card" content="summary"><meta property="og:site_name" content="UdeC Plasma Group"><meta property="og:url" content="https://plasmaphysicsudec.github.io/en/authors/rnavarro/"><meta property="og:title" content="Roberto E. Navarro | UdeC Plasma Group"><meta property="og:description" content="Site description"><meta property="og:image" content="https://plasmaphysicsudec.github.io/en/authors/rnavarro/avatar_hu578324b7e70455e0a4e841881b197cba_309952_270x270_fill_q75_lanczos_center.jpg"><meta property="twitter:image" content="https://plasmaphysicsudec.github.io/en/authors/rnavarro/avatar_hu578324b7e70455e0a4e841881b197cba_309952_270x270_fill_q75_lanczos_center.jpg"><meta property="og:locale" content="en-us"><meta property="og:updated_time" content="2023-03-15T00:00:00+00:00"><title>Roberto E. Navarro | UdeC Plasma Group</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=b889b6ea0a1136bc837a574fd721eae9><script src=/js/wowchemy-init.min.122502dcb425aca9493bcc6125a05221.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-collapse main-menu-item collapse justify-content-end" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/en/><span>Home</span></a></li><li class=nav-item><a class=nav-link href=/en/people><span>People</span></a></li><li class="nav-item dropdown"><a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Research</span><span class=caret></span></a><div class=dropdown-menu><a class=dropdown-item href=/en/publications><span>Publications</span></a>
+<a class=dropdown-item href=/en/projects><span>Projects</span></a></div></li><li class=nav-item><a class=nav-link href=/en/contact><span>Contact</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
+<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li><li class="nav-item dropdown i18n-dropdown"><a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true aria-label=Languages><i class="fas fa-globe mr-1" aria-hidden=true></i><span class="d-none d-lg-inline">English</span></a><div class=dropdown-menu><div class="dropdown-item dropdown-item-active"><span>English</span></div><a class=dropdown-item href=https://plasmaphysicsudec.github.io/es/authors/rnavarro/><span>Español</span></a></div></li></ul></div></nav></div><div class=page-body><section id=profile-page class=pt-5><div class=container><div class=row><div class="col-12 col-lg-4"><div id=profile><img class="avatar avatar-circle" src=/en/authors/rnavarro/avatar_hu578324b7e70455e0a4e841881b197cba_309952_270x270_fill_q75_lanczos_center.jpg alt="Roberto E. Navarro"><div class=portrait-title><h2>Roberto E. Navarro</h2><h3>Assistant Professor</h3><h3><a href=https://www.udec.cl target=_blank rel=noopener><span>Universidad de Concepción</span></a></h3></div><ul class=network-icon aria-hidden=true><li><a href=mailto:robernavarro@udec.cl aria-label=envelope><i class="fas fa-envelope big-icon"></i></a></li><li><a href=https://github.com/vagoberto target=_blank rel=noopener aria-label=github><i class="fab fa-github big-icon"></i></a></li><li><a href=https://orcid.org/0000-0003-0782-1904 target=_blank rel=noopener aria-label=orcid><i class="ai ai-orcid big-icon"></i></a></li><li><a href="https://scholar.google.com/citations?user=alyX7AgAAAAJ" target=_blank rel=noopener aria-label=google-scholar><i class="ai ai-google-scholar big-icon"></i></a></li><li><a href=https://www.researchgate.net/profile/Roberto_Navarro target=_blank rel=noopener aria-label=researchgate><i class="ai ai-researchgate big-icon"></i></a></li><li><a href=https://arxiv.org/a/navarro_r_1.html target=_blank rel=noopener aria-label=arxiv><i class="ai ai-arxiv big-icon"></i></a></li><li><a href=https://www.linkedin.com/in/ronavarromal/ target=_blank rel=noopener aria-label=linkedin><i class="fab fa-linkedin big-icon"></i></a></li></ul></div></div><div class="col-12 col-lg-8"><div class=article-style><p>Roberto is Assistant Professor in the Physics Department of the
 Faculty of Physical and Mathematical Sciences of the Universidad de
 Concepción. He joined the institution through the program of Insertion
-of Advanced Human Capital in the Academy (PAI) of CONICyT.</p>
-<p>He specializes in Space Plasma Physics, in particular, he researches
+of Advanced Human Capital in the Academy (PAI) of CONICyT.</p><p>He specializes in Space Plasma Physics, in particular, he researches
 on the basic processes that govern the heating and energization of
 plasmas in the Universe as well as their importance in different
 turbulent regimes in space physics, astrophysical and laboratory
-plasmas.</p>
-</div>
-<div class=row>
-<div class=col-md-5>
-<div class=section-subheading>Interests</div>
-<ul class=ul-interests>
-<li>Plasma Physics</li>
-<li>Space Physics and Astrophysics</li>
-<li>Solar wind and Magnetosphere</li>
-<li>Particle acceleration and heating</li>
-<li>Plasma numerical simulations</li>
-<li>Electromagnetic fluctuations and turbulence in plasmas</li>
-<li>Non-linear effects</li>
-<li>particle distribution functions</li>
-<li>Out-of-equilibrium thermodynamics</li>
-</ul>
-</div>
-<div class=col-md-7>
-<div class=section-subheading>Education</div>
-<ul class="ul-edu fa-ul">
-<li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>PhD of Sciences with mention in Physics, 2015</p>
-<p class=institution>Universidad de Chile</p>
-</div>
-</li>
-<li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>Bachelor of Sciences with mention in Physics, 2009</p>
-<p class=institution>Universidad de Chile</p>
-</div>
-</li>
-</ul>
-</div>
-<div class=col-md-7>
-<div class=section-subheading>Others</div>
-<ul class="ul-edu fa-ul">
-<li>
-<i class="fa-li fas fa-sun"></i>
-<div class=description>
-<p class=course>Convener and Scientific Committee's member</p>
-<p class=institution>XII Latin American Conference on Space Geophysics (COLAGE)</p>
-<p class=institution>November 22-26, 2021</p>
-<p class=institution><a href=https://ccc.ciencias.uchile.cl/2021colage> https://ccc.ciencias.uchile.cl/2021colage </p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class=section-subheading>Publications</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/pablo-s.-moya/>Pablo S. Moya</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>
-</span>
+plasmas.</p></div><div class=row><div class=col-md-5><div class=section-subheading>Interests</div><ul class=ul-interests><li>Plasma Physics</li><li>Space Physics and Astrophysics</li><li>Solar wind and Magnetosphere</li><li>Particle acceleration and heating</li><li>Plasma numerical simulations</li><li>Electromagnetic fluctuations and turbulence in plasmas</li><li>Non-linear effects</li><li>particle distribution functions</li><li>Out-of-equilibrium thermodynamics</li></ul></div><div class=col-md-7><div class=section-subheading>Education</div><ul class="ul-edu fa-ul"><li><i class="fa-li fas fa-graduation-cap"></i><div class=description><p class=course>PhD of Sciences with mention in Physics, 2015</p><p class=institution>Universidad de Chile</p></div></li><li><i class="fa-li fas fa-graduation-cap"></i><div class=description><p class=course>Bachelor of Sciences with mention in Physics, 2009</p><p class=institution>Universidad de Chile</p></div></li></ul></div><div class=col-md-7><div class=section-subheading>Others</div><ul class="ul-edu fa-ul"><li><i class="fa-li fas fa-sun"></i><div class=description><p class=course>Convener and Scientific Committee's member</p><p class=institution>XII Latin American Conference on Space Geophysics (COLAGE)</p><p class=institution>November 22-26, 2021</p><p class=institution><a href=https://ccc.ciencias.uchile.cl/2021colage>https://ccc.ciencias.uchile.cl/2021colage</p></div></li></ul></div></div></div></div><div class=section-subheading>Publications</div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/pablo-s-moya/>Pablo S Moya</a></span></span>
+(2023).
+<a href=/en/publications/navarro-2023/>Effects of Background Turbulence on the Relaxation of Ion Temperature Anisotropy Firehose Instability in Space Plasmas</a>.
+<em>Universe 9</em>, 8.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=https://www.mdpi.com/2218-1997/9/1/8 target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2023/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.3390/universe9010008 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/c.-m.-espinoza/>C. M. Espinoza</a></span>, <span><a href=/en/authors/pablo-s-moya/>Pablo S Moya</a></span>, <span><a href=/en/authors/marina-stepanova/>Marina Stepanova</a></span>, <span><a href=/en/authors/juan-a-valdivia/>Juan A Valdivia</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span></span>
+(2022).
+<a href=/en/publications/espinoza-2022/>Spontaneous Magnetic Fluctuations and Collisionless Regulation of Turbulence in the Earths Magnetotail</a>.
+<em>Astrophys. J. 924</em>, 8.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=https://iopscience.iop.org/article/10.3847/1538-4357/ac33a2 target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/espinoza-2022/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.3847/1538-4357/ac33a2 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/pablo-s.-moya/>Pablo S. Moya</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span></span>
 (2021).
 <a href=/en/publications/moya-2021/>Effects of the Background Turbulence on the Relaxation of Ion Temperature Anisotropy in Space Plasmas</a>.
-<em>Front. Phys. 9</em>, 175.
-<p>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://www.frontiersin.org/articles/10.3389/fphy.2021.624748/full target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/moya-2021/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.3389/fphy.2021.624748 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/victor-munoz/>Víctor Muñoz</a></span>, <span>
-<a href=/en/authors/juan-a-valdivia/>Juan A Valdivia</a></span>, <span>
-<a href=/en/authors/pablo-s-moya/>Pablo S Moya</a></span>
-</span>
+<em>Front. Phys. 9</em>, 175.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=https://www.frontiersin.org/articles/10.3389/fphy.2021.624748/full target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/moya-2021/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.3389/fphy.2021.624748 target=_blank rel=noopener>DOI</a></p></div><details><summary>See previous</summary><br><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/victor-munoz/>Víctor Muñoz</a></span>, <span><a href=/en/authors/juan-a-valdivia/>Juan A Valdivia</a></span>, <span><a href=/en/authors/pablo-s-moya/>Pablo S Moya</a></span></span>
 (2020).
 <a href=/en/publications/navarro-2020/>Feasibility of Ion-cyclotron Resonant Heating in the Solar Wind</a>.
-<em>Astrophys. J. 898</em>, L9.
-<p>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=http://dx.doi.org/10.3847/2041-8213/aba0ae%20https://iopscience.iop.org/article/10.3847/2041-8213/aba0ae target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2020/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.3847/2041-8213/aba0ae target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/rodrigo-a.-lopez/>Rodrigo A. López</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/sebastian-i.-pons/>Sebastian I. Pons</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>
-</span>
+<em>Astrophys. J. 898</em>, L9.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=http://dx.doi.org/10.3847/2041-8213/aba0ae%20https://iopscience.iop.org/article/10.3847/2041-8213/aba0ae target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2020/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.3847/2041-8213/aba0ae target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/rodrigo-a.-lopez/>Rodrigo A. López</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/sebastian-i.-pons/>Sebastian I. Pons</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span></span>
 (2017).
 <a href=/en/publications/lopez-2017a/>Landau damping in Kaniadakis and Tsallis distributed electron plasmas</a>.
-<em>Phys. Plasmas 24</em>, 102119.
-<p>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/lopez-2017a/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1063/1.5004688 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<details>
-<summary> See previous </summary>
-<br>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/juan-a.-valdivia/>Juan A. Valdivia</a></span>, <span>
-<a href=/en/authors/benjamin-a.-toledo/>Benjamín A. Toledo</a></span>, <span>
-<a href=/en/authors/n.-gallo/>N. Gallo</a></span>, <span>
-<a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span>
-<a href=/en/authors/j.-rogan/>J. Rogan</a></span>, <span>
-<a href=/en/authors/m.-stepanova/>M. Stepanova</a></span>, <span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span>
-<a href=/en/authors/rodrigo-a.-lopez/>Rodrigo A. López</a></span>, <span>
-<a href=/en/authors/m.-diaz/>M. Díaz</a></span>
-</span>
+<em>Phys. Plasmas 24</em>, 102119.<p><a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/lopez-2017a/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1063/1.5004688 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/juan-a.-valdivia/>Juan A. Valdivia</a></span>, <span><a href=/en/authors/benjamin-a.-toledo/>Benjamín A. Toledo</a></span>, <span><a href=/en/authors/n.-gallo/>N. Gallo</a></span>, <span><a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span><a href=/en/authors/j.-rogan/>J. Rogan</a></span>, <span><a href=/en/authors/m.-stepanova/>M. Stepanova</a></span>, <span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span><a href=/en/authors/rodrigo-a.-lopez/>Rodrigo A. López</a></span>, <span><a href=/en/authors/m.-diaz/>M. Díaz</a></span></span>
 (2016).
 <a href=/en/publications/valdivia-2016/>Magnetic fluctuations in anisotropic space plasmas: The effect of the plasma environment</a>.
-<em>Adv. Space Res. 58</em>, 2126.
-<p>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=http://linkinghub.elsevier.com/retrieve/pii/S0273117716301521 target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/valdivia-2016/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1016/j.asr.2016.04.017 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/rodrigo-a-lopez/>Rodrigo A Lopez</a></span>, <span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span>
-<a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span>
-<a href=/en/authors/adolfo-f-vinas/>Adolfo F Vinas</a></span>, <span>
-<a href=/en/authors/j.-alejandro-valdivia/>J. Alejandro Valdivia</a></span>
-</span>
+<em>Adv. Space Res. 58</em>, 2126.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=http://linkinghub.elsevier.com/retrieve/pii/S0273117716301521 target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/valdivia-2016/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1016/j.asr.2016.04.017 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/rodrigo-a-lopez/>Rodrigo A Lopez</a></span>, <span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span><a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span><a href=/en/authors/adolfo-f-vinas/>Adolfo F Vinas</a></span>, <span><a href=/en/authors/j.-alejandro-valdivia/>J. Alejandro Valdivia</a></span></span>
 (2016).
 <a href=/en/publications/lopez-2016/>Relativistic Cyclotron Instability in Anisotropic Plasmas</a>.
-<em>Astrophys. J. 832</em>, 36.
-<p>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=http://dx.doi.org/10.3847/0004-637X/832/1/36 target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/lopez-2016/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.3847/0004-637X/832/1/36 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/j.-alejandro-valdivia/>J. Alejandro Valdivia</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span>
-<a href=/en/authors/v.-munoz/>V. Muñoz</a></span>
-</span>
+<em>Astrophys. J. 832</em>, 36.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=http://dx.doi.org/10.3847/0004-637X/832/1/36 target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/lopez-2016/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.3847/0004-637X/832/1/36 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/j.-alejandro-valdivia/>J. Alejandro Valdivia</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span><a href=/en/authors/v.-munoz/>V. Muñoz</a></span></span>
 (2015).
 <a href=/en/publications/vinas-2015/>Electromagnetic fluctuations of the whistler-cyclotron and firehose instabilities in a Maxwellian and Tsallis-kappa-like plasma</a>.
-<em>J. Geophys. Res. 120</em>, 3307.
-<p>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/vinas-2015/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1002/2014JA020554 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/rodrigo-a.-lopez/>Rodrigo A. López</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span>
-<a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span>
-<a href=/en/authors/j.-alejandro-valdivia/>J. Alejandro Valdivia</a></span>
-</span>
-(2015).
-<a href=/en/publications/lopez-2015/>SPONTANEOUS ELECTROMAGNETIC FLUCTUATIONS in A RELATIVISTIC MAGNETIZED ELECTRON-POSITRON PLASMA</a>.
-<em>Astrophys. J. 810</em>, 103.
-<p>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=http://dx.doi.org/10.1088/0004-637X/810/2/103 target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/lopez-2015/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1088/0004-637X/810/2/103 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/victor-munoz/>Víctor Muñoz</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span>
-<a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span>
-<a href=/en/authors/pablo-s.-moya/>Pablo S. Moya</a></span>, <span>
-<a href=/en/authors/juan-a.-valdivia/>Juan A. Valdivia</a></span>
-</span>
+<em>J. Geophys. Res. 120</em>, 3307.<p><a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/vinas-2015/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1002/2014JA020554 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/victor-munoz/>Víctor Muñoz</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span><a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span><a href=/en/authors/pablo-s.-moya/>Pablo S. Moya</a></span>, <span><a href=/en/authors/juan-a.-valdivia/>Juan A. Valdivia</a></span></span>
 (2015).
 <a href=/en/publications/navarro-2015/>Magnetic Alfvén-cyclotron fluctuations of anisotropic nonthermal plasmas</a>.
-<em>J. Geophys. Res. 120</em>, 2382.
-<p>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2015/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1002/2014JA020550 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span>
-<a href=/en/authors/a.-f.-vinas/>A. F. Viñas</a></span>, <span>
-<a href=/en/authors/j.-a.-valdivia/>J. A. Valdivia</a></span>
-</span>
+<em>J. Geophys. Res. 120</em>, 2382.<p><a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2015/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1002/2014JA020550 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/rodrigo-a.-lopez/>Rodrigo A. López</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span><a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span><a href=/en/authors/j.-alejandro-valdivia/>J. Alejandro Valdivia</a></span></span>
+(2015).
+<a href=/en/publications/lopez-2015/>SPONTANEOUS ELECTROMAGNETIC FLUCTUATIONS in A RELATIVISTIC MAGNETIZED ELECTRON-POSITRON PLASMA</a>.
+<em>Astrophys. J. 810</em>, 103.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=http://dx.doi.org/10.1088/0004-637X/810/2/103 target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/lopez-2015/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1088/0004-637X/810/2/103 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span><a href=/en/authors/a.-f.-vinas/>A. F. Viñas</a></span>, <span><a href=/en/authors/j.-a.-valdivia/>J. A. Valdivia</a></span></span>
 (2014).
 <a href=/en/publications/navarro-2014/>Solar Wind Thermally Induced Magnetic Fluctuations</a>.
-<em>Phys. Rev. Lett. 112</em>, 245001.
-<p>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://link.aps.org/doi/10.1103/PhysRevLett.112.245001 target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2014/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1103/PhysRevLett.112.245001 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>
-</span>
+<em>Phys. Rev. Lett. 112</em>, 245001.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=https://link.aps.org/doi/10.1103/PhysRevLett.112.245001 target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2014/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1103/PhysRevLett.112.245001 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span></span>
 (2014).
 <a href=/en/publications/vinas-2014a/>The role of higher-order modes on the electromagnetic whistler-cyclotron wave fluctuations of thermal and non-thermal plasmas</a>.
-<em>Phys. Plasmas 21</em>, 012902.
-<p>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/vinas-2014a/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1063/1.4861865 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span>
-<a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span>
-<a href=/en/authors/juan-a.-valdivia/>Juan A. Valdivia</a></span>
-</span>
+<em>Phys. Plasmas 21</em>, 012902.<p><a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/vinas-2014a/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1063/1.4861865 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/jaraneda/>Jaime A. Araneda</a></span>, <span><a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/adolfo-f.-vinas/>Adolfo F. Viñas</a></span>, <span><a href=/en/authors/juan-a.-valdivia/>Juan A. Valdivia</a></span></span>
 (2014).
 <a href=/en/publications/navarro-2014-a/>Theory of electromagnetic fluctuations for magnetized multi-species plasmas</a>.
-<em>Phys. Plasmas 21</em>, 092902.
-<p>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2014-a/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1063/1.4894700 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/a.-f.-vinas/>A. F. Viñas</a></span>, <span>
-<a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span>
-<a href=/en/authors/j.-a.-valdivia/>J. A. Valdivia</a></span>
-</span>
+<em>Phys. Plasmas 21</em>, 092902.<p><a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/navarro-2014-a/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1063/1.4894700 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/a.-f.-vinas/>A. F. Viñas</a></span>, <span><a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span><a href=/en/authors/j.-a.-valdivia/>J. A. Valdivia</a></span></span>
 (2014).
 <a href=/en/publications/moya-2014/>Weak turbulence cascading effects in the acceleration and heating of ions in the solar wind</a>.
-<em>Astrophys. J. 781</em>, 76.
-<p>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/moya-2014/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1088/0004-637X/781/2/76 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span>
-<a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span>
-<a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span>
-<a href=/en/authors/j.-alejandro-valdivia/>J. Alejandro Valdivia</a></span>
-</span>
+<em>Astrophys. J. 781</em>, 76.<p><a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/moya-2014/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1088/0004-637X/781/2/76 target=_blank rel=noopener>DOI</a></p></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span><a href=/en/authors/p.-s.-moya/>P. S. Moya</a></span>, <span><a href=/en/authors/rnavarro/>Roberto E. Navarro</a></span>, <span><a href=/en/authors/v.-munoz/>V. Muñoz</a></span>, <span><a href=/en/authors/j.-alejandro-valdivia/>J. Alejandro Valdivia</a></span></span>
 (2013).
 <a href=/en/publications/moya-2013/>Comment on "Sensitive Test for Ion-Cyclotron Resonant Heating in the Solar Wind"</a>.
-<em>Phys. Rev. Lett. 111</em>, 029001.
-<p>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://link.aps.org/doi/10.1103/PhysRevLett.111.029001 target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/moya-2013/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1103/PhysRevLett.111.029001 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-</details>
-<div class=section-subheading>Current projects</div>
-<div class=view-list-item>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<a href=/en/projects/pmoya2019/>Kinetic instabilities and wave-particle interactions in non Maxwellian plasmas. Linear, quasi-linear, and non-linear analysis</a>
-</div>
-<details>
-<summary> See previous </summary>
-<br>
-<div class=view-list-item>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<a href=/en/projects/rnavarro2018-pai/>Disipación de Turbulencia en Plasmas Astrofísicos, Conexión entre Fluctuaciones Microscópicas y Macroscópicas</a>
-</div>
-<div class=view-list-item>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<a href=/en/projects/rnavarro2018/>Turbulence Dissipation Between Macroscopic and Kinetic Scales in Astrophysical Plasmas</a>
-</div>
-<div class=view-list-item>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<a href=/en/projects/rnavarro2015/>Electromagnetic Wave Scattering Induced by Plasma Fluctuations</a>
-</div>
-</details>
-<div class="article-widget content-widget-hr">
-<h3>Latest</h3>
-<ul>
-<li>
-<a href=/en/publications/moya-2021/>Effects of the Background Turbulence on the Relaxation of Ion Temperature Anisotropy in Space Plasmas</a>
-</li>
-<li>
-<a href=/en/publications/navarro-2020/>Feasibility of Ion-cyclotron Resonant Heating in the Solar Wind</a>
-</li>
-<li>
-<a href=/en/projects/pmoya2019/>Kinetic instabilities and wave-particle interactions in non Maxwellian plasmas. Linear, quasi-linear, and non-linear analysis</a>
-</li>
-<li>
-<a href=/en/projects/rnavarro2018-pai/>Disipación de Turbulencia en Plasmas Astrofísicos, Conexión entre Fluctuaciones Microscópicas y Macroscópicas</a>
-</li>
-<li>
-<a href=/en/projects/rnavarro2018/>Turbulence Dissipation Between Macroscopic and Kinetic Scales in Astrophysical Plasmas</a>
-</li>
-<li>
-<a href=/en/publications/lopez-2017a/>Landau damping in Kaniadakis and Tsallis distributed electron plasmas</a>
-</li>
-<li>
-<a href=/en/publications/valdivia-2016/>Magnetic fluctuations in anisotropic space plasmas: The effect of the plasma environment</a>
-</li>
-<li>
-<a href=/en/publications/lopez-2016/>Relativistic Cyclotron Instability in Anisotropic Plasmas</a>
-</li>
-<li>
-<a href=/en/publications/vinas-2015/>Electromagnetic fluctuations of the whistler-cyclotron and firehose instabilities in a Maxwellian and Tsallis-kappa-like plasma</a>
-</li>
-<li>
-<a href=/en/projects/rnavarro2015/>Electromagnetic Wave Scattering Induced by Plasma Fluctuations</a>
-</li>
-<li>
-<a href=/en/publications/navarro-2015/>Magnetic Alfvén-cyclotron fluctuations of anisotropic nonthermal plasmas</a>
-</li>
-<li>
-<a href=/en/publications/lopez-2015/>SPONTANEOUS ELECTROMAGNETIC FLUCTUATIONS in A RELATIVISTIC MAGNETIZED ELECTRON-POSITRON PLASMA</a>
-</li>
-<li>
-<a href=/en/publications/navarro-2014/>Solar Wind Thermally Induced Magnetic Fluctuations</a>
-</li>
-<li>
-<a href=/en/publications/vinas-2014a/>The role of higher-order modes on the electromagnetic whistler-cyclotron wave fluctuations of thermal and non-thermal plasmas</a>
-</li>
-<li>
-<a href=/en/publications/navarro-2014-a/>Theory of electromagnetic fluctuations for magnetized multi-species plasmas</a>
-</li>
-<li>
-<a href=/en/publications/moya-2014/>Weak turbulence cascading effects in the acceleration and heating of ions in the solar wind</a>
-</li>
-<li>
-<a href=/en/publications/moya-2013/>Comment on "Sensitive Test for Ion-Cyclotron Resonant Heating in the Solar Wind"</a>
-</li>
-</ul>
-</div>
-</div>
-</section>
-</div>
-<div class=page-footer>
-<div class=container>
-<footer class=site-footer>
-<p class=powered-by>
-© 2021 - Plasma Physics Group, Universidad de Concepción
-</p>
-<p class=powered-by>
-Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.
-</p>
-</footer>
-</div>
-</div>
-<div id=modal class="modal fade" role=dialog>
-<div class=modal-dialog>
-<div class=modal-content>
-<div class=modal-header>
-<h5 class=modal-title>Cite</h5>
-<button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span>
-</button>
-</div>
-<div class=modal-body>
-<pre><code class="tex hljs"></code></pre>
-</div>
-<div class=modal-footer>
-<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
-<i class="fas fa-copy"></i> Copy
-</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
-<i class="fas fa-download"></i> Download
-</a>
-<div id=modal-error></div>
-</div>
-</div>
-</div>
-</div>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<em>Phys. Rev. Lett. 111</em>, 029001.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=https://link.aps.org/doi/10.1103/PhysRevLett.111.029001 target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/en/publications/moya-2013/cite.bib>Cite</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.1103/PhysRevLett.111.029001 target=_blank rel=noopener>DOI</a></p></div></details><div class=section-subheading>Current projects</div><div class=view-list-item><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<a href=/en/projects/pmoya2019/>Kinetic instabilities and wave-particle interactions in non Maxwellian plasmas. Linear, quasi-linear, and non-linear analysis</a></div><details><summary>See previous</summary><br><div class=view-list-item><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<a href=/en/projects/rnavarro2018-pai/>Disipación de Turbulencia en Plasmas Astrofísicos, Conexión entre Fluctuaciones Microscópicas y Macroscópicas</a></div><div class=view-list-item><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<a href=/en/projects/rnavarro2018/>Turbulence Dissipation Between Macroscopic and Kinetic Scales in Astrophysical Plasmas</a></div><div class=view-list-item><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<a href=/en/projects/rnavarro2015/>Electromagnetic Wave Scattering Induced by Plasma Fluctuations</a></div></details><div class="article-widget content-widget-hr"><h3>Latest</h3><ul><li><a href=/en/publications/navarro-2023/>Effects of Background Turbulence on the Relaxation of Ion Temperature Anisotropy Firehose Instability in Space Plasmas</a></li><li><a href=/en/publications/espinoza-2022/>Spontaneous Magnetic Fluctuations and Collisionless Regulation of Turbulence in the Earths Magnetotail</a></li><li><a href=/en/publications/moya-2021/>Effects of the Background Turbulence on the Relaxation of Ion Temperature Anisotropy in Space Plasmas</a></li><li><a href=/en/publications/navarro-2020/>Feasibility of Ion-cyclotron Resonant Heating in the Solar Wind</a></li><li><a href=/en/projects/pmoya2019/>Kinetic instabilities and wave-particle interactions in non Maxwellian plasmas. Linear, quasi-linear, and non-linear analysis</a></li><li><a href=/en/projects/rnavarro2018-pai/>Disipación de Turbulencia en Plasmas Astrofísicos, Conexión entre Fluctuaciones Microscópicas y Macroscópicas</a></li><li><a href=/en/projects/rnavarro2018/>Turbulence Dissipation Between Macroscopic and Kinetic Scales in Astrophysical Plasmas</a></li><li><a href=/en/publications/lopez-2017a/>Landau damping in Kaniadakis and Tsallis distributed electron plasmas</a></li><li><a href=/en/publications/valdivia-2016/>Magnetic fluctuations in anisotropic space plasmas: The effect of the plasma environment</a></li><li><a href=/en/publications/lopez-2016/>Relativistic Cyclotron Instability in Anisotropic Plasmas</a></li><li><a href=/en/publications/vinas-2015/>Electromagnetic fluctuations of the whistler-cyclotron and firehose instabilities in a Maxwellian and Tsallis-kappa-like plasma</a></li><li><a href=/en/projects/rnavarro2015/>Electromagnetic Wave Scattering Induced by Plasma Fluctuations</a></li><li><a href=/en/publications/navarro-2015/>Magnetic Alfvén-cyclotron fluctuations of anisotropic nonthermal plasmas</a></li><li><a href=/en/publications/lopez-2015/>SPONTANEOUS ELECTROMAGNETIC FLUCTUATIONS in A RELATIVISTIC MAGNETIZED ELECTRON-POSITRON PLASMA</a></li><li><a href=/en/publications/navarro-2014/>Solar Wind Thermally Induced Magnetic Fluctuations</a></li><li><a href=/en/publications/vinas-2014a/>The role of higher-order modes on the electromagnetic whistler-cyclotron wave fluctuations of thermal and non-thermal plasmas</a></li><li><a href=/en/publications/navarro-2014-a/>Theory of electromagnetic fluctuations for magnetized multi-species plasmas</a></li><li><a href=/en/publications/moya-2014/>Weak turbulence cascading effects in the acceleration and heating of ions in the solar wind</a></li><li><a href=/en/publications/moya-2013/>Comment on "Sensitive Test for Ion-Cyclotron Resonant Heating in the Solar Wind"</a></li></ul></div></div></section></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by>© 2023 - Plasma Physics Group, Universidad de Concepción</p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
@@ -689,10 +119,7 @@ Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_bl
             </div>
           </div>
         </div>
-      </script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
+      </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
 <script src=/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script>
-<script src=/en/js/wowchemy.min.09a3aaa5b95b9e71afceb12bece5ed0f.js></script>
-</body>
-</html>
+<script src=/en/js/wowchemy.min.8f46a06fa79688840084e7eef23f7ef7.js></script></body></html>
