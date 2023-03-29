@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Estudiante de Magíster en Ciencias con mención en Física
+role: Estudiante de Doctorado en Ciencias Físicas
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://www.udec.cl/pexterno"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Estudiante de Magíster en Ciencias con mención en Física
+bio: Estudiante de Doctorado en Ciencias Físicas
 
 interests:
 - Sistemas con interacciones de largo alcance
@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+  - course: Magíster en Ciencias con mención en Física
+    institution: Universidad de Concepción
+    year: 2022
   - course: Licenciado en Ciencias Físicas
     institution: Universidad de Concepción
     year: 2018
@@ -49,9 +52,9 @@ user_groups:
 - Estudiantes
 ---
 
-Estudiante de Magíster en Ciencias con mención en Física, obtuvo el
-grado académico de Licenciado en Ciencias Físicas el año 2018. En el
-año 2019 entró al programa de magíster bajo la guía del Dr. Roberto
+Estudiante de doctorado en Ciencias Físicas. Obtuvo el
+grado académico de Licenciado en Ciencias Físicas el año 2018 y magíster en ciencias con mención en Física el 2022. En el
+año 2023 entró al programa de doctorado bajo la guía del Dr. Roberto
 Navarro con quien actualmente se encuentra investigando sistemas con
 interacciones de largo alcance que presentan estados
 cuasi-estacionarios fuera del equilibrio termodinámico.

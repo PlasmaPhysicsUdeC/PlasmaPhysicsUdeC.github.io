@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Master's Student in Sciences with mention in Physics
+role: PhD Student in Physical Sciences
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://www.udec.cl/pexterno"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Master's student in Physics
+bio: PhD student in Physical Physics
 
 interests:
 - Systems with long-range interactions
@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+  - course: Master of Sciences with mention in Physics
+    institution: Universidad de Concepción
+    year: 2022
   - course: Bachelor of Science in Physics
     institution: Universidad de Concepción
     year: 2018
@@ -46,8 +49,8 @@ user_groups:
 - Students
 ---
 
-Master's student in physics. He obtained a bachelor's degree in
-physical sciences in 2018. In 2019 he started the Master's program
+PhD student in physics. He obtained a bachelor's degree in
+physical sciences in 2018 and a master degree in 2022. In 2023 he started the PhD program
 under the supervision of Dr. Roberto Navarro with whom he is actually
 studying systems with long-range interactions that exhibit
 quasi-stationary states out of thermodynamic equilibrium.
